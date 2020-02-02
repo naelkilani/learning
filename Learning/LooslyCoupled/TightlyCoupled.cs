@@ -1,4 +1,4 @@
-﻿namespace Learning
+﻿namespace Learning.LooslyCoupled
 {
     /*
     Suppose the customer data comes from different databases or web services and,
