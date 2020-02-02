@@ -10,6 +10,12 @@
         is non-concrete
     */
 
+    /*
+        After applying DIP there still a problem, we used DataAccessFactory 
+        inside the CustomerBusinessLogic class. So, suppose there is another implementation of 
+        IDataAccess and we want to use that
+        new class inside CustomerBusinessLogic.
+     */
     public class CustomerBusinessLogic
     {
         IDataAccess _custDataAccess;
