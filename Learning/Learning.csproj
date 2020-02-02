@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="LooslyCoupled\Step1_IoC_Using_FactoryPattern.cs" />
+    <Compile Include="LooslyCoupled\Step2_DIP.cs" />
     <Compile Include="LooslyCoupled\TightlyCoupled.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
